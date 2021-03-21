@@ -1,0 +1,2 @@
+# Question-Paraphrasing-System
+The task is to generate paraphrased questions, that is questions that have the same meaning but are different in terms of the vocabulary and grammar of the sentence  The training data is derived from the Datasets of Paraphrased SQuAD Questions and consists of 1,118 paraphrased questions. The evaluation consists of 100 questions also derived from the Stanford Question Answering Dataset
