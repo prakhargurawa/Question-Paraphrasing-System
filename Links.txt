@@ -1,0 +1,42 @@
+https://www.reddit.com/r/MachineLearning/comments/5x1l8e/d_what_is_the_state_of_the_art_in_paraphrase/
+*******************************************************************************************************
+T5: 
+https://towardsdatascience.com/t5-text-to-text-transfer-transformer-643f89e8905e 
+https://medium.com/dataseries/text-to-text-transfer-transformer-e35dc28bae14
+https://towardsdatascience.com/paraphrase-any-question-with-t5-text-to-text-transfer-transformer-pretrained-model-and-cbb9e35f1555
+https://huggingface.co/mrm8488/t5-small-finetuned-quora-for-paraphrasing
+https://www.kaggle.com/c/quora-question-pairs/code
+*******************************************************************************************************
+http://jalammar.github.io/illustrated-bert/
+https://jalammar.github.io/visualizing-neural-machine-translation-mechanics-of-seq2seq-models-with-attention/
+https://huggingface.co/transformers/training.html
+https://medium.com/@aniruddha.choudhury94/part-2-bert-fine-tuning-tutorial-with-pytorch-for-text-classification-on-the-corpus-of-linguistic-18057ce330e1
+*******************************************************************************************************
+Attention:
+https://www.tensorflow.org/tutorials/text/nmt_with_attention
+https://www.youtube.com/watch?v=W2rWgXJBZhU
+https://www.youtube.com/watch?v=TQQlZhbC5ps
+*******************************************************************************************************
+Other useful links and future directions:
+    1. https://www.aclweb.org/anthology/D17-1091.pdf
+    2. https://paperswithcode.com/paper/learning-semantic-sentence-embeddings-using-1
+    3. https://www.aclweb.org/anthology/P19-1610.pdf
+    4. https://arxiv.org/pdf/1606.05250.pdf
+    5. https://www.cse.iitk.ac.in/users/piyush/papers/deep-paraphrase-aaai2018.pdf
+    6. https://towardsdatascience.com/nlp-building-a-question-answering-model-ed0529a68c54
+    7. https://www.pragnakalp.com/nlp-tutorial-setup-question-answering-system-bert-squad-colab-tpu/
+    8. https://github.com/google-research/bert
+    9. https://blog.keras.io/a-ten-minute-introduction-to-sequence-to-sequence-learning-in-keras.html
+    10. https://towardsdatascience.com/finding-similar-quora-questions-with-word2vec-and-xgboost-1a19ad272c0d
+    11. https://tianjun.me/static/essay_resources/Paraphrase_Generation/main.html
+    12. https://www.researchgate.net/publication/336996372_Transformer_and_seq2seq_model_for_Paraphrase_Generation
+    13. https://github.com/tlatkowski/multihead-siamese-nets
+    14. https://github.com/farizrahman4u/seq2seq
+    15. https://arxiv.org/pdf/1810.04805.pdf (BERT)
+    16. https://www.analyticsvidhya.com/blog/2019/09/demystifying-bert-groundbreaking-nlp-framework/
+    17. https://github.com/topics/paraphrase-generation
+*******************************************************************************************************
+GPT2:
+https://github.com/kingchloexx/GPT2-Question-Answering/blob/master/paper.md
+https://towardsdatascience.com/natural-language-generation-part-2-gpt-2-and-huggingface-f3acb35bc86a
+https://gist.github.com/GeorgeDittmar/5c57a35332b2b5818e51618af7953351
