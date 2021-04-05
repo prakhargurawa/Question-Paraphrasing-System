@@ -17,7 +17,7 @@ import pandas as pd
 
 # Parameter selection
 BATCH_SIZE = 64
-EPOCHS = 60
+EPOCHS = 30
 LSTM_NODES =256
 NUM_SENTENCES = 20000
 MAX_SENTENCE_LENGTH = 50
@@ -189,6 +189,16 @@ r = model.fit(
 )
 
 
+plt.plot(r.history["loss"], label="Training Loss")
+plt.plot(r.history["val_loss"], label="Validation Loss")
+plt.legend()
+plt.show()
+
+
+plt.plot(r.history["accuracy"], label="Training Accuracy")
+plt.plot(r.history["val_accuracy"], label="Validation Accuracy")
+plt.legend()
+plt.show()
 
 encoder_model = Model(encoder_inputs_placeholder, encoder_states)
 decoder_state_input_h = Input(shape=(LSTM_NODES,))
@@ -258,15 +268,15 @@ def encode_to_input(s):
     
 translation = translate_sentence(encode_to_input("What kind of glass exists in nature"))
 print('Response:', translation)
-# Response: what in mongol muslim ii
+# Response: what in the new rainforests
 
 translation = translate_sentence(encode_to_input("was the landing successful"))
 print('Response:', translation)
-# Response: of 2005
+# Response: of the rainforests
 
 translation = translate_sentence(encode_to_input("what county is raleigh in"))
 print('Response:', translation)
-# Response: of mongol green colony
+# Response: of the rainforests
 
 
 
