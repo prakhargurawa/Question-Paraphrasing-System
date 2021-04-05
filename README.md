@@ -43,6 +43,12 @@ Other dataset for paraphrasing can be found here:
 * https://www.quora.com/q/quoradata/First-Quora-Dataset-Release-Question-Pairs
 * https://github.com/google-research-datasets/paws#paws-wiki
 
+#### Model 5
+It contain's 2 variation both have fixed input length as 100 which improves the scores. In model 6 I have extended the dataset by attaching quora dataset and then shuffling the overall dataset, but it gives less score than model 5 which is simple same model as model 2 just with fixed input length as 100. We can consider model 5 as best model of all experiments with
+#### Harmonic Mean : 	0.108 (4)
+#### BLUE : 0.127 (6)
+#### PINC : 0.327 (17)
+
 
 
 
